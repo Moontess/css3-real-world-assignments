@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Interactive Button</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #cdcdcd;
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        position: relative;
+      }
+
+      button {
+        color: #ffffff;
+        font-weight: bold;
+        padding: 1rem;
+        background: linear-gradient(to right, #0000ff, #800080);
+        transition: all 3s;
+        border: 1px solid #00000036;
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        left: 40%;
+      }
+
+      button:hover {
+        background: linear-gradient(to right, #800080, #ffc0cb);
+        transform: scale(1.1);
+        box-shadow: 2px 3px 9px #f0eaea;
+      }
+    </style>
+  </head>
+  <body>
+    <button>Click Me</button>
+  </body>
+</html>
